@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WeatherCellView" customModule="HomeWork12" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t88-1g-hdZ">
+                    <rect key="frame" x="2" y="2" width="96" height="96"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="t88-1g-hdZ" secondAttribute="height" multiplier="1:1" id="QlE-Ja-Zgd"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wlp-WP-uvu">
+                    <rect key="frame" x="106" y="2" width="286" height="96"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="gAJ-mD-J2p">
+                            <rect key="frame" x="0.0" y="0.0" width="286" height="38.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6v-NY-cOE">
+                            <rect key="frame" x="0.0" y="38.5" width="286" height="28.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tcd-jU-22M">
+                            <rect key="frame" x="0.0" y="67" width="286" height="29"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="H6v-NY-cOE" firstAttribute="height" secondItem="Wlp-WP-uvu" secondAttribute="height" multiplier="0.3" id="pox-qc-ncB"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Wlp-WP-uvu" secondAttribute="bottom" constant="2" id="4ho-Pt-pWg"/>
+                <constraint firstItem="t88-1g-hdZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="2" id="A7M-o6-OB5"/>
+                <constraint firstItem="gAJ-mD-J2p" firstAttribute="height" secondItem="Wlp-WP-uvu" secondAttribute="height" multiplier="0.4" id="CqO-hC-eM5"/>
+                <constraint firstItem="Wlp-WP-uvu" firstAttribute="leading" secondItem="t88-1g-hdZ" secondAttribute="trailing" constant="8" id="OOm-1s-YHp"/>
+                <constraint firstItem="t88-1g-hdZ" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.961905" id="ZzD-pW-8O4"/>
+                <constraint firstItem="Wlp-WP-uvu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="g1L-cV-AKf"/>
+                <constraint firstItem="Tcd-jU-22M" firstAttribute="height" secondItem="Wlp-WP-uvu" secondAttribute="height" multiplier="0.3" id="hie-DW-9KG"/>
+                <constraint firstItem="t88-1g-hdZ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="tBP-x6-Rwa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Wlp-WP-uvu" secondAttribute="trailing" constant="8" id="zch-sx-40K"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="imageViewIcon" destination="t88-1g-hdZ" id="CRv-r6-7Hc"/>
+                <outlet property="labelDescription" destination="H6v-NY-cOE" id="YEr-H3-ygT"/>
+                <outlet property="labelTemperature" destination="gAJ-mD-J2p" id="hSh-Vo-LFm"/>
+                <outlet property="labelWind" destination="Tcd-jU-22M" id="6Nq-J4-1zu"/>
+            </connections>
+            <point key="canvasLocation" x="236.95652173913047" y="-91.741071428571431"/>
+        </view>
+    </objects>
+</document>
