@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50098C3824E64D74004759FE /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50098C3724E64D74004759FE /* TodoList.swift */; };
+		50098C3A24E689DF004759FE /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50098C3924E689DF004759FE /* TodoTableViewCell.swift */; };
 		50376D3724E5379600D95A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50376D3624E5379600D95A6B /* AppDelegate.swift */; };
 		50376D3924E5379600D95A6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50376D3824E5379600D95A6B /* SceneDelegate.swift */; };
 		50376D3B24E5379600D95A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50376D3A24E5379600D95A6B /* ViewController.swift */; };
@@ -14,9 +16,22 @@
 		50376D4124E5379600D95A6B /* HomeWork14.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50376D3F24E5379600D95A6B /* HomeWork14.xcdatamodeld */; };
 		50376D4324E5379800D95A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50376D4224E5379800D95A6B /* Assets.xcassets */; };
 		50376D4624E5379800D95A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50376D4424E5379800D95A6B /* LaunchScreen.storyboard */; };
+		50376D4E24E5415C00D95A6B /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50376D4D24E5415C00D95A6B /* RealmViewController.swift */; };
+		50376D5024E5416A00D95A6B /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50376D4F24E5416A00D95A6B /* CoreDataViewController.swift */; };
+		50376D5224E54C8A00D95A6B /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50376D5124E54C8A00D95A6B /* Persistance.swift */; };
+		50A7CF3724EACE4B00C801BD /* ViewControllerAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A7CF3124EACE4B00C801BD /* ViewControllerAlamofire.swift */; };
+		50A7CF3824EACE4B00C801BD /* WeatherCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A7CF3224EACE4B00C801BD /* WeatherCellView.xib */; };
+		50A7CF3924EACE4B00C801BD /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A7CF3324EACE4B00C801BD /* WeatherData.swift */; };
+		50A7CF3A24EACE4B00C801BD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A7CF3424EACE4B00C801BD /* TableViewCell.swift */; };
+		50A7CF3B24EACE4B00C801BD /* WeatherLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A7CF3524EACE4B00C801BD /* WeatherLoader.swift */; };
+		50A7CF3C24EACE4B00C801BD /* WeatherCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A7CF3624EACE4B00C801BD /* WeatherCellView.swift */; };
+		B8FCAD868D7F788163B38703 /* Pods_HomeWork14.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73E6E439576D2A6000F9AC9 /* Pods_HomeWork14.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CCA29E089DE3AC04447A481 /* Pods-HomeWork14.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork14.release.xcconfig"; path = "Target Support Files/Pods-HomeWork14/Pods-HomeWork14.release.xcconfig"; sourceTree = "<group>"; };
+		50098C3724E64D74004759FE /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		50098C3924E689DF004759FE /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 		50376D3324E5379600D95A6B /* HomeWork14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50376D3624E5379600D95A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50376D3824E5379600D95A6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +41,17 @@
 		50376D4224E5379800D95A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50376D4524E5379800D95A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50376D4724E5379800D95A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50376D4D24E5415C00D95A6B /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
+		50376D4F24E5416A00D95A6B /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
+		50376D5124E54C8A00D95A6B /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		50A7CF3124EACE4B00C801BD /* ViewControllerAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAlamofire.swift; sourceTree = "<group>"; };
+		50A7CF3224EACE4B00C801BD /* WeatherCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherCellView.xib; sourceTree = "<group>"; };
+		50A7CF3324EACE4B00C801BD /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		50A7CF3424EACE4B00C801BD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		50A7CF3524EACE4B00C801BD /* WeatherLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherLoader.swift; sourceTree = "<group>"; };
+		50A7CF3624EACE4B00C801BD /* WeatherCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCellView.swift; sourceTree = "<group>"; };
+		6465B585B6C72218E3D76A56 /* Pods-HomeWork14.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork14.debug.xcconfig"; path = "Target Support Files/Pods-HomeWork14/Pods-HomeWork14.debug.xcconfig"; sourceTree = "<group>"; };
+		E73E6E439576D2A6000F9AC9 /* Pods_HomeWork14.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWork14.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8FCAD868D7F788163B38703 /* Pods_HomeWork14.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +71,8 @@
 			children = (
 				50376D3524E5379600D95A6B /* HomeWork14 */,
 				50376D3424E5379600D95A6B /* Products */,
+				756DAA6030CFC84321221394 /* Pods */,
+				AE1A1FCB69F1185229525473 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +87,12 @@
 		50376D3524E5379600D95A6B /* HomeWork14 */ = {
 			isa = PBXGroup;
 			children = (
+				50A7CF3424EACE4B00C801BD /* TableViewCell.swift */,
+				50A7CF3124EACE4B00C801BD /* ViewControllerAlamofire.swift */,
+				50A7CF3624EACE4B00C801BD /* WeatherCellView.swift */,
+				50A7CF3224EACE4B00C801BD /* WeatherCellView.xib */,
+				50A7CF3324EACE4B00C801BD /* WeatherData.swift */,
+				50A7CF3524EACE4B00C801BD /* WeatherLoader.swift */,
 				50376D3624E5379600D95A6B /* AppDelegate.swift */,
 				50376D3824E5379600D95A6B /* SceneDelegate.swift */,
 				50376D3A24E5379600D95A6B /* ViewController.swift */,
@@ -66,8 +101,30 @@
 				50376D4424E5379800D95A6B /* LaunchScreen.storyboard */,
 				50376D4724E5379800D95A6B /* Info.plist */,
 				50376D3F24E5379600D95A6B /* HomeWork14.xcdatamodeld */,
+				50376D4D24E5415C00D95A6B /* RealmViewController.swift */,
+				50376D4F24E5416A00D95A6B /* CoreDataViewController.swift */,
+				50376D5124E54C8A00D95A6B /* Persistance.swift */,
+				50098C3724E64D74004759FE /* TodoList.swift */,
+				50098C3924E689DF004759FE /* TodoTableViewCell.swift */,
 			);
 			path = HomeWork14;
+			sourceTree = "<group>";
+		};
+		756DAA6030CFC84321221394 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6465B585B6C72218E3D76A56 /* Pods-HomeWork14.debug.xcconfig */,
+				1CCA29E089DE3AC04447A481 /* Pods-HomeWork14.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE1A1FCB69F1185229525473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E73E6E439576D2A6000F9AC9 /* Pods_HomeWork14.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50376D4A24E5379800D95A6B /* Build configuration list for PBXNativeTarget "HomeWork14" */;
 			buildPhases = (
+				3A8B1E48CB607C7AC700AC30 /* [CP] Check Pods Manifest.lock */,
 				50376D2F24E5379600D95A6B /* Sources */,
 				50376D3024E5379600D95A6B /* Frameworks */,
 				50376D3124E5379600D95A6B /* Resources */,
+				679F33932CD846B4FA7D998F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,18 +190,71 @@
 				50376D4624E5379800D95A6B /* LaunchScreen.storyboard in Resources */,
 				50376D4324E5379800D95A6B /* Assets.xcassets in Resources */,
 				50376D3E24E5379600D95A6B /* Main.storyboard in Resources */,
+				50A7CF3824EACE4B00C801BD /* WeatherCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A8B1E48CB607C7AC700AC30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWork14-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679F33932CD846B4FA7D998F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork14/Pods-HomeWork14-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork14/Pods-HomeWork14-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeWork14/Pods-HomeWork14-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		50376D2F24E5379600D95A6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50098C3824E64D74004759FE /* TodoList.swift in Sources */,
+				50376D5224E54C8A00D95A6B /* Persistance.swift in Sources */,
+				50A7CF3B24EACE4B00C801BD /* WeatherLoader.swift in Sources */,
 				50376D4124E5379600D95A6B /* HomeWork14.xcdatamodeld in Sources */,
+				50098C3A24E689DF004759FE /* TodoTableViewCell.swift in Sources */,
 				50376D3B24E5379600D95A6B /* ViewController.swift in Sources */,
+				50A7CF3924EACE4B00C801BD /* WeatherData.swift in Sources */,
+				50A7CF3724EACE4B00C801BD /* ViewControllerAlamofire.swift in Sources */,
+				50376D4E24E5415C00D95A6B /* RealmViewController.swift in Sources */,
+				50376D5024E5416A00D95A6B /* CoreDataViewController.swift in Sources */,
+				50A7CF3A24EACE4B00C801BD /* TableViewCell.swift in Sources */,
+				50A7CF3C24EACE4B00C801BD /* WeatherCellView.swift in Sources */,
 				50376D3724E5379600D95A6B /* AppDelegate.swift in Sources */,
 				50376D3924E5379600D95A6B /* SceneDelegate.swift in Sources */,
 			);
@@ -286,10 +398,12 @@
 		};
 		50376D4B24E5379800D95A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6465B585B6C72218E3D76A56 /* Pods-HomeWork14.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HomeWork14/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,10 +417,12 @@
 		};
 		50376D4C24E5379800D95A6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCA29E089DE3AC04447A481 /* Pods-HomeWork14.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HomeWork14/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
